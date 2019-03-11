@@ -12,7 +12,7 @@ $(document).ready(function() {
             var image = $("<img>");
             image.addClass("crystal-buttons");
             image.attr("src", crystalImages[i]);
-            image.attr("data-letter", Math.floor(Math.random() * 11) +1);
+            image.attr("data-letter", Math.floor(Math.random() * 12) +1);
             $("#crystals").append(image);
         }
     }
@@ -23,7 +23,7 @@ $(document).ready(function() {
         var counter = 0;
         $(".your-guess").text("Your points: " + counter);
 
-        var targetNumber = Math.floor(Math.random() * (100-23) + 23);
+        var targetNumber = Math.floor(Math.random() * (120-19) + 19);
         $(".random-number").text("Your target: " + targetNumber);
         console.log(targetNumber);
 
