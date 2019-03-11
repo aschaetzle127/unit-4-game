@@ -1,0 +1,56 @@
+body {
+    background-image: url(../images/blue-crystals.gif);
+}
+
+.container {
+    color: rgb(214, 252, 252);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px; 
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.random-number{
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.your-guess{
+    padding: 15px;
+}
+
+.wins-text{
+    padding: 15px;
+}
+
+.losses-text{
+    padding: 15px;
+}
+
+
+.header{
+    background-color: black;
+    padding: 20px;
+}
+
+.game-container {
+    background-color: black;
+    margin-top: 30px;
+    padding: 20px;
+}
